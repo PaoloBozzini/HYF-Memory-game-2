@@ -1,0 +1,8 @@
+API for fetching Card with difficulty 
+
+GET http://localhost:3000/cards?difficulty=easy
+
+Response: 
+[{"id":6,"name":"Computer","image":"images/computer.png"},{"id":11,"name":"Moneybag","image":"images/moneybag.png"},{"id":8,"name":"Crown","image":"images/crown.png"},{"id":13,"name":"Invader","image":"images/space_invader.png"},{"id":4,"name":"Bow-and-Arrow","image":"images/bow_and_arrow.png"},{"id":12,"name":"Skull-Crossbones","image":"images/skull_and_crossbones.png"}]
+
+difficulty -> easy, medium, hard
