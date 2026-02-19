@@ -40,16 +40,17 @@
   gap: clamp(1rem, 3vw, 2rem);
 }
 
-.score, .timer {
+.moves, .timer, .score {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-#score,
-#time {
+#moves,
+#time,
+#score {
   display: inline-block;
-  width: 40px;
+  width: 30px;
   text-align: right;
 }
 
@@ -192,12 +193,12 @@
     font-size: 0.95rem;
   }
 
-  .score, .timer {
+  .moves, .timer {
     width: 100%;
     justify-content: center;
   }
 
-  #score, #time {
+  #moves, #time {
     width: auto;
   }
 
