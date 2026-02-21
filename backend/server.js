@@ -27,13 +27,15 @@ await knexInstance.raw(`
   )
 `);
 
+await knexInstance('scores').del();
+
 const existing = await knexInstance("scores").first();
 
 if (!existing) {
   await knexInstance("scores").insert([
-    { username: "Alice", score: 120, difficulty: "easy" },
-    { username: "Bob", score: 200, difficulty: "medium" },
-    { username: "Charlie", score: 350, difficulty: "hard" }
+    { username: "Alice", score: 45, difficulty: "easy" },
+    { username: "Bob", score: 70, difficulty: "medium" },
+    { username: "Charlie", score: 105, difficulty: "hard" }
   ]);
 }
 

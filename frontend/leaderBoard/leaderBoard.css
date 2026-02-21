@@ -45,11 +45,6 @@ h1 {
   border: 3px solid white;
 }
 
-/* Difficulty colours */
-/* .level-card.easy   { background: #4CAF50; }
-.level-card.medium { background: #FF9800; }
-.level-card.hard   { background: #F44336; } */
-
 /* Leaderboard table container */
 .leaderboard {
   width: 90%;
